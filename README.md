@@ -1,9 +1,24 @@
 # README
+This project was created with Ruby 3.0.2 and Rails 7.0.5
+
+To run the project locally
+1. Git clone or fork
+2. Bundle install
+3. Run the rails server
+4. Run the seed file
+5. run rails test to validate DB assertions are passing (API tests could use improvement - see notes)
+6. in postman, or something related, Use localhost:3000/api/vi/users with the Request Params within the criteria
+
 
 Notes
-* I spent a good bit of time learning test driven development when creating my models
-* If I had been able to dedicate more than 4 hours to the process, I would have been able to continue with my TDD with the controller.
-* I learned a lot and had fun! Thanks for giving me the opportunity.
+* Most of my project time was dedicated to better learning test driven development, while creating the db schema, models, associations, and validations.
+* Improvements I would make with more time would be:
+    * Continued work on the controller to refine the methods and logic
+    * Additional API endpoints to create exams and windows
+    * API logging
+    * I would restructure the database to have a UserExam table, rather than the current relationship between Users, Exams, and Exam Windows.
+    * Add more data to the seed file
+    * Add more conrtoller tests
 
 
 Challenge Criteria
