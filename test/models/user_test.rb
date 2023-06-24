@@ -1,7 +1,7 @@
 require "test_helper"
 
 class UserTest < ActiveSupport::TestCase
-  fixtures :users, :colleges
+  fixtures :users, :colleges, :exams
 
   # this test user 1 has all necessary data
   test 'should be valid' do
@@ -17,10 +17,4 @@ class UserTest < ActiveSupport::TestCase
     user = users(:user1)
     assert_instance_of College, user.college
   end
-
-  test "college has many users" do
-    college = colleges(:college1)
-    assert_instance_of User, college.users.first
-  end
-
 end

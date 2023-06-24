@@ -1,0 +1,16 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+exam1:
+  id: 1
+  exam_name: Catching Pokemon 101
+  college_id: 1
+
+exam2:
+  id: 2
+  exam_name: Beating Shrines 202
+  college_id: 2
+
+exam3:
+  id: 3
+  exam_name: Healing Pokemon 102
+  college_id: 1
