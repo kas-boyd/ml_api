@@ -1,7 +1,7 @@
 # README
 
 Notes
-* I spent a good bit of time learning through test driven development when creating my modesl
+* I spent a good bit of time learning test driven development when creating my models
 * If I had been able to dedicate more than 4 hours to the process, I would have been able to continue with my TDD with the controller.
 * I learned a lot and had fun! Thanks for giving me the opportunity.
 
