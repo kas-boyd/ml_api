@@ -14,3 +14,7 @@ exam3:
   id: 3
   exam_name: Healing Pokemon 102
   college_id: 1
+
+exam4:
+  id: 4
+  exam_name: A sad exam without a window or college

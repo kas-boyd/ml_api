@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+window1:
+  id: 1
+  start_date: 2023-06-23 18:36:15
+  end_date: 2023-06-27 18:36:15
+  exam_id: 1
+
+window2:
+  id: 2
+  start_date: 2023-06-23 18:36:15
+  end_date: 2023-06-24 18:36:15
+  exam_id: 2
+
+window3:
+  id: 3
+  start_date: 2023-06-24 18:36:15
+  end_date: 2023-06-26 18:36:15
+  exam_id: 3
+
+#negative cases
+
+#does not have an exam id
+window4:
+  id: 4
+  start_date: 2023-06-23 18:36:15
+  end_date: 2023-06-26 18:36:15

@@ -10,11 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_24_011232) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_24_020017) do
   create_table "colleges", force: :cascade do |t|
     t.string "college_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "exam_windows", force: :cascade do |t|
+    t.datetime "start_date"
+    t.datetime "end_date"
+    t.integer "exam_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["exam_id"], name: "index_exam_windows_on_exam_id"
   end
 
   create_table "exams", force: :cascade do |t|
@@ -36,6 +45,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_24_011232) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "exam_windows", "exams"
   add_foreign_key "exams", "colleges"
   add_foreign_key "users", "colleges"
   add_foreign_key "users", "exams"
