@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+college1:
+  id: 1
+  college_name: Pokemon Academy
+
+college2:
+  id: 2
+  college_name: Hyrule University

@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+user1:
+  first_name: Ash
+  last_name: Ketchum
+  phone_number: 123-456-7891
+  college_id: 1
+  exam_id: 1
+  start_time: 2023-06-23 16:48:43
+
+user2:
+  first_name: Link
+  last_name: Hero
+  phone_number: 222-222-2222
+  college_id: 2
+  exam_id: 1
+  start_time: 2023-06-23 16:48:43
+
+user3:
+  first_name: Missing
+  last_name: Data
+  phone_number: 444-444-4444
+  start_time: 2023-06-23 16:48:43
