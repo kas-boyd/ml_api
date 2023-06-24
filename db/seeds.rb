@@ -14,6 +14,7 @@ User.create(
     first_name: 'Ash',
     last_name: 'Ketchum',
     phone_number: '1234567890',
-    college_id: college1.id,
+    college_id: 1,
     exam_id: 1,
+    start_time: DateTime.now
 )
